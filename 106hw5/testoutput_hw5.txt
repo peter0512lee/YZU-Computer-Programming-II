@@ -1,0 +1,39 @@
+A = str1: to be
+B = X = str2: the  = the
+C = str3: or not to be = or not to be
+D = A + C: to be or not to be
+D = A + str3: to be or not to be
+D = str1 + C: to be or not to be
+-------------------------------
+D push ',': to be or not to be,
+D pop_back: to be or not to be
+-------------------------------
+STR = D append F: to be or not to be, that is (the )question
+STR erase 28-34: to be or not to be, that is question
+STR insert G: to be or not to be, that is the question
+STR erase 28-31: to be or not to be, that is question
+STR insert E (10-14): to be or not to be, that is cool question
+STR substr(3,len=15): be or not to be
+STR: to be or not to be, that is cool question
+-------------------------------
+find "cool" in the STR: 28
+Let STR2 = cXXL: cXXL
+find "cXXL" in the STR: 999
+find first "cXXL" in the STR: 28
+print the first and last char of STR: t & n
+-------------------------------
+Rebuild STR2 word by word (x2): cXXL
+cXXL is equal to cXXL? 1
+cXXL-ZZZ is equal to cXXL? 0
+STR3 pop 2 char = cXXL-Z
+STR3 clear all char =
+-------------------------------
+Current STR3 [size=0, capacity=10]
+STR3 append STR2 = cXXL [size=4, capacity=10]
+STR3 reserve to 20 = cXXL
+ [size=4, capacity=20]
+STR3 shrink_to_fit = cXXL
+ [size=4, capacity=4]
+STR3 resize to 25 = cXXLccccccccccccccccccccc
+ [size=25, capacity=25]
+STR3_123 = XXL

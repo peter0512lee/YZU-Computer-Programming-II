@@ -1,0 +1,49 @@
+作業批改!!
+
+1.可以正常建構(預設大小為10的鎮列) 和 3.getSize, getCapacity:
+ [size=0, capacity=10]
+
+2.可以用push_back / pop_back 放與丟東西
+' to be  ' push_back(a) = to be a
+' to be a ' pop_back() = to be
+
+4. resize, reserve, shrink_to_fit
+C = aaa [size=3, capacity=10]
+resize(6, 'b') = aaabbb [size=6, capacity=10]
+reserve(20)    = aaabbb [size=6, capacity=20]
+shrink_to_fit  = aaabbb [size=6, capacity=6 ]
+
+7. ==與!=
+D = aaa
+E = bbb
+F = aaa
+D == E ? 0
+D != F ? 0
+
+8.clear, empty, front, back
+G = demo
+G.front() = d
+G.back() = o
+G is empty ? 0
+G.clear()
+G is empty ? 1
+
+11.MyString先直接使用公開測資, 繼承正常5分
+t0 = str1: to be
+t1 = X = str2: the  = the
+t2 = str3: or not to be = or not to be
+
+13.六大功能
+[append] : I love coding
+[insert] : I very love coding
+[substr] : love coding
+[erase ] : I love coding
+[find有] : 2
+[find無] : 999
+[find_first_of有] : 10
+[find_first_of無] : 999
+
+三種+都可用
+MyString + MyString = A C
+MyString + char* = A B
+char* + MyString = B C
